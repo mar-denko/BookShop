@@ -1,0 +1,157 @@
+/*Intro*/
+
+.intro {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 65px;
+}
+
+.intro__inner {
+    z-index: 3;
+    position: absolute;
+    top: 30%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 100px;
+    letter-spacing: 0.05em;
+    color: #E0CFB1;
+}
+
+/*lines*/
+
+.intro__lines {
+    border-bottom: 3px solid #E0CFB1;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.line1 {
+    width: 600px;
+}
+
+.line2 {
+    width: 640px;
+}
+
+.line3 {
+    width: 680px;
+}
+
+/********/
+
+.intro__img {
+    z-index: 1;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.blackout {
+    position: relative;
+}
+
+.blackout::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(47, 47, 47, 0.6);
+    z-index: 1;
+    width: 100%;
+}
+
+/*Calendar*/
+
+.container {
+    -webkit-touch-callout: none; 
+    -webkit-user-select: none;   
+    -khtml-user-select: none;    
+    -moz-user-select: none;      
+    -ms-user-select: none;     
+    user-select: none; 
+    position: relative;
+    width: 100%;
+    max-width: 1111px;
+    height: 705px;
+    margin: auto;
+    color: #41474C;
+    margin-bottom: 341px;
+}
+
+.calendar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.list_elem {
+    width: 17%;
+    height: 110px;
+    background: #E0CFB1;
+    cursor: pointer;
+
+}
+
+.list_elem p {
+    position: relative;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 110px;
+    vertical-align: middle;
+    text-align: center;
+
+}
+
+div.active {
+    border: 2px solid #ADA088;
+}
+
+div.active p::after {
+    content: "◤";
+    position: absolute;
+    top: -36%;
+    left: -3%;
+    width: 0;
+    height: 0;
+    font-size: 48px;
+    color: #ADA088;
+}
+
+/*Text New*/
+
+.event {
+    width: 100%;
+    background: #E0CFB1;
+    border: 2px solid #ADA088;
+    vertical-align: top;
+    padding: 45px;
+    display: inline-block;
+}
+
+.event__header {
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.event__header h1 {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: 0.05em;
+}
+
+.event__inner p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+}

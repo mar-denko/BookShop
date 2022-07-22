@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+<button onclick="goText()">жмак</button>
+
+
+
+    <div class="text">
+        <div class="txt_item" id="item0">
+            <p>пук</p>
+        </div>
+        
+    </div>
+    <div class="func" id="func_anch">
+        <div class="slidecontainer ">
+            <span id="small">А</span>
+            <input type="range" min="10" max="64" step="1" value="20" class="slider" id="textSize" onchange="Characters()" oninput="getSliderValue()">
+            <span id="big">A</span>
+        </div>
+        <div class="zoom" id="zoom" onClick="Zooming()" title="Полноэкранный режим"></div><!--<img src="../src/icons/text_func/zoom.svg">-->
+        <div class="formats">
+            <table class="formats_tabel">
+                <tr>
+                    <td id="landscape" onClick="Landscape()"><img src="../src/icons/text_func/landscape.svg" title="Альбомный формт"></td>
+                    <td id="document" onClick="DocumentFormat()"><img src="../src/icons/text_func/document.svg" title="Формат документа"></td>
+                    <td id="book" onClick="Book()"><img src="../src/icons/text_func/book.svg" title="Книжный формат"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="">
+            <div class="scrolling__inner" id="scrolling__inner">
+                <div class="arrow" id="scrolling_prev">
+                    <p>&#10094;</p>
+                </div>
+                <div class="page__number">
+                    <p id="page_num"></p>
+                </div>
+                <div class="arrow" id="scrolling_next">
+                    <p>&#10095;</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/jq.min.js"></script>
+    <script src="../js/text.js"></script>
+    <script src="../js/text_functions.js"></script>
+
+</body>
+
+</html>

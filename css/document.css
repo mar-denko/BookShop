@@ -1,0 +1,61 @@
+body{
+    background-color: #EAE9E5;
+}
+.content_docx__text{
+    font-family: 'Times New Roman', Times, serif;
+    display: block;
+    width: 80%;
+    font-size: 20px;
+    margin: auto;
+    margin-top: 40px;
+    height: auto;
+    text-align: justify;
+    color: #43484E;
+}
+.content_docx__title{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.content_docx__text p{
+    line-height: 40px;
+    margin-bottom: 20px;
+}
+.content_name{
+    position: relative;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.content_docx__text a{
+    font-weight: normal;
+    color: red;
+}
+.content_name span{
+    font-weight: normal;
+}
+
+.content_docx__text img{
+    margin-top: 20px;
+}
+
+.content_table__form{
+    margin: auto;
+    border-collapse: collapse;
+    border: 2px solid rgb(0, 0, 0);
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+td, th {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px 10px;
+}
+
+.content_docx__title a{ 
+    color: blue;
+}
+
+  
+  
+

@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50" height="50">
+	<title>18+ круглая</title>
+	<defs>
+		<image  width="50" height="50" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMAAAAp4XiDAAAAAXNSR0IB2cksfwAAAG9QTFRFAAAA////////////////////////////////////////8PDw3t7ey8vLxMTEz8/P2tra+Pj4+/v7////3d3dyMjI09PT4eHh5ubm6enp19fX4uLi5eXl7Ozs3t7e2tra9PT04eHh////////////MgqQOgAAACV0Uk5TABBwr9//YFDvj3//oAAAAGD//7CQAADQ//8w4P//Pg3/ic+QgLAvsxMAAAGiSURBVHic3ZZbe4MgDIa1GmuroLBq17pDT///N+4LoHPPPGR3274bEPM+gZAAUcSKN0lKK0qTLPrUNl+zD9QA7WQAa++JPfeLUulFVbVhux0TGTq2XLb3Ki1Mt0CwbltJCHgCk8fOiciH8wPjTZQQGSmhdUH0xPOq5cgBkY7gSrgSloI5I3JC63+NNEOnbafj+BVp2iJ0VcEZaI4rSPts+64yIdUnmBFivZEbPhGdGn3GkC8IpdQUgorpTECC7ZHo4L7NKAtHSKf4F4VhZ1L3M5tB/C8KreXQIQXPUgRV8YJ4DJYCRHcoVHyYSqsasmS5UUtI6+P32vB6BtULyBkO3t4R6ksjRTB3nsQVEVMthHBw08wjrVs9EghuhMvHZK7htxEiFTJh3Mq2kq6K9yWcPQKk7WN0CTEf1c7cvvh6sZ3+rvlCRlVO3wR/54T5ZcjKxTpWxUjanyMiIWVvfPEVcsTwxbehH7jBoUNZFOc/u8RTfsBwBor8HKxzAt3dMV+veFKlS++Hf8Q8SKx7/1TKVh9jXvl29CLLktuafZpsYmf7AUUrcZSVdGgxAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+	</style>
+	<use id="Background" href="#img1" x="0" y="0" />
+</svg>

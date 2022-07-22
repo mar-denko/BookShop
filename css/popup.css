@@ -1,0 +1,243 @@
+.popup {
+    z-index: 3;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.8s ease 0s;
+
+}
+
+body.lock {
+    overflow: hidden;
+}
+
+.popup.open {
+    opacity: 1;
+    visibility: visible;
+}
+
+.popup__body {
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup__content.entry,
+.popup__content.registration{
+    background-image: url(../src/popups/popup_entry.jpeg);
+    background-size: 100%;
+    width: 100%;
+    max-width: 600px;
+    height: fit-content;
+    padding: 28px 38px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.popup__content
+
+.popup__img {
+    margin: 0;
+    width: 600px;
+    height: 100%;
+}
+
+.popup__blackout {
+    position: relative;
+}
+
+.popup__blackout::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(47, 47, 47, 0.6);
+    z-index: 1;
+    width: 100%;
+}
+
+.popup__left_bar {
+    width: 423;
+
+}
+
+.left_bar__inner {
+    width: 224px;
+    margin: auto;
+}
+
+.popup__content h1 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+.popup__left_bar {
+    position: absolute;
+
+}
+
+.popup__left_bar span::after {
+    content: '';
+    height: 3px;
+    width: 351px;
+    background-color: #FF782D;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+.popup__content h1 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.input_fields {
+    width: 334px;
+    margin: auto;
+    margin-bottom: 14px;
+}
+
+.input_fields input {
+    text-align: center;
+    width: 100%;
+    height: 24px;
+    background: none;
+    border: 2px solid #fff;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.input_fields input::placeholder {
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+}
+
+.input_fields input:focus::-webkit-input-placeholder {
+    opacity: 0;
+}
+
+.input_fields input:focus {
+    color: #fff;
+    text-align: center;
+}
+
+.btns {
+    width: 190px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+.entry button,
+.reg{
+    text-decoration: none;
+    color: #fff;
+    background-color: #FF782D;
+    display: block;
+    text-align: center;
+    padding: 5px 0;
+    width: 100%;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    border: none;
+}
+
+.entry {
+    border-radius: 1px;
+}
+
+.entry button:hover,
+.reg:hover {
+    background-color: #b34f1a;
+
+}
+
+.reg {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.reg:disabled,
+.reg[disabled]{
+    background-color: #adb5bd;
+}
+
+
+
+.acheckbox {
+    width: 12px;
+    height: 12px;
+    border: 1px solid #adb5bd;
+    background-color: #fff;
+    border-radius: 3px;
+    margin: 5px 5px 0 0;
+    cursor: pointer;
+}
+
+.acheckbox:checked {
+    border-color: #0b76ef;
+    background-color: #0b76ef;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3e%3c/svg%3e");
+}
+
+.agree {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    justify-content:space-between;
+}
+
+.agree label {
+    width: 100%;
+    text-align: center;
+    display: inline;
+    color: #fff;
+    line-height: 1em;
+    font-size: 12px;
+}
+
+
+.close {
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.close:hover {
+    opacity: 0.3;
+}
+
+.close:before, .close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 25px;
+    width: 4px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.close:before {
+    transform: rotate(45deg);
+}
+
+.close:after {
+    transform: rotate(-45deg);
+}

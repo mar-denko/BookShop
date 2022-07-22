@@ -1,0 +1,15 @@
+<svg width="25" height="15" viewBox="0 0 25 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="25" height="2" rx="1" fill="#2A3038"/>
+<rect y="13" width="25" height="2" rx="1" fill="#2A3038"/>
+<rect y="15" width="15" height="2" rx="1" transform="rotate(-90 0 15)" fill="#2A3038"/>
+<rect x="23" y="15" width="15" height="2" rx="1" transform="rotate(-90 23 15)" fill="#2A3038"/>
+<rect x="12" y="2" width="1" height="11" fill="#2A3038"/>
+<line x1="3" y1="4.5" x2="11" y2="4.5" stroke="black"/>
+<line x1="3" y1="8.5" x2="11" y2="8.5" stroke="black"/>
+<line x1="3" y1="10.5" x2="11" y2="10.5" stroke="black"/>
+<line x1="3" y1="6.5" x2="11" y2="6.5" stroke="black"/>
+<line x1="14" y1="4.5" x2="22" y2="4.5" stroke="black"/>
+<line x1="14" y1="8.5" x2="22" y2="8.5" stroke="black"/>
+<line x1="14" y1="10.5" x2="22" y2="10.5" stroke="black"/>
+<line x1="14" y1="6.5" x2="22" y2="6.5" stroke="black"/>
+</svg>

@@ -1,0 +1,12 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 57 57" width="57" height="57">
+	<title>ZaЛупа (1)</title>
+	<defs>
+		<image  width="50" height="50" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAMAAAAp4XiDAAAAAXNSR0IB2cksfwAAALFQTFRFSEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhISEhIAV0NZwAAADt0Uk5TADRpj6nB2/SojB2K7v+JMfynGARv8fBsAgaQDbu4Dh/X1SEMyslgGvMbsDgk/iaA3t0g3Oj4E9SUk1l2+olwAAABXElEQVR4nJ2Wa0OCMBSGj4K6UEQoK1G0QvGGWV7L///Dgg0S2IDtvF+2Hfawjcs5LwCnRlPTW+1Op90iD80Gf70oo9szc+r1jUrAIgOT08C2SgFH5+cz2Y4QeHwaJhOy0ST0/PLKEyOXn5+ltFExPp6UAP+QN80HZ2/lQAq9f2Qj/ryaYMzCzwRIHcEYch8G9QRjgnSwXEkQlFmtk/5GiqDMhvW2MttKt7ZVWuS+TLhTQXafUbuXJiizj5ovNeQb4CB7+AQxD/Q1yhKUCcBVRVzwVBEPjqrIEU6qyAnOqsgZgyA2hjg+4iEjXiXig0F8lkrnp6dH/WKh/M7imWHcUU8XmKSESH2wlk+wy3SgnsYxxQL8hUxJmmdLElyu9YXvesnHpl5deZ2MufhPdRH/Fd3rVmEVhjfx+o5tlkgXG5JYli2yPaTc9sQy+kVz1a02V1SRhSPMwumayML9AcAPKDdqqyKjAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #484848 } 
+	</style>
+	<path id="форма 1" class="shp0" d="M38.53 41.62L42.36 38.41L55.36 53.9L51.53 57.12L38.53 41.62Z" />
+	<use id="Слой 1" href="#img1" x="0" y="0" />
+</svg>

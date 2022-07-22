@@ -1,0 +1,378 @@
+/*Content*/
+
+.content {
+    width: 100%;
+    height: 100%;
+}
+
+/*Left Bar*/
+
+.left_bar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 23%;
+    height: 100%;
+    min-height: 100vh;
+    background-color: #536071;
+    padding: 45px 75px;
+}
+
+.profile_menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.profile_menu li {
+    margin-bottom: 21px;
+}
+.menu_el{
+    cursor: pointer;
+}
+
+.menu_el img, a {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.menu_el img {
+    margin-right: 10px;
+}
+
+/*Right Bar*/
+
+.right_bar {
+    width: 77%;
+    height: 100%;
+    margin-left: 23%;
+}
+
+.settings {
+    width: 40%;
+    margin: auto;
+    padding: 50px;
+    display: none;
+}
+
+/* .settings.active{
+    display: block;
+
+} */
+
+.profile_img {
+    position: relative;
+    top: 0;
+    right: 0;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: end;
+    margin-bottom: 20px;
+}
+
+.user_photo {
+    position: relative;
+    display: inline-block;
+    width: fit-content;
+    margin: auto;
+}
+
+.change_user_photo {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: inline-block;
+    width: auto;
+    height: auto;
+    cursor: pointer;
+}
+
+.edit_profile {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.edit_profile a {
+    text-align: center;
+}
+
+.profile_info {
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.info_table th {
+    text-align: left;
+    padding: 7px;
+    color: #3F3F46;
+    font-size: 20px;
+}
+
+.info_table td {
+    color: #727181;
+    font-size: 18px;
+    padding-left: 25px;
+}
+
+.change_password {
+    text-align: right;
+}
+
+.settings a {
+    font-size: 18px;
+    line-height: 23px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+.subscription {
+    padding: 30px 23px;
+    display: none;
+}
+
+.sub_title {
+    margin-bottom: 34px;
+}
+
+.sub_title h3 {
+    font-size: 48px;
+    letter-spacing: 0.05em;
+    color: #727181;
+    line-height: normal;
+    text-align: left;
+}
+
+.sub_type_block {
+    width: 32%;
+    height: 100%;
+    background-color: #D0CDDE;
+}
+
+.sub_types {
+    position: relative;
+    z-index: 100;
+    width: 100%;
+    height: 340px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+
+.sub_type_inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.sub_type_inner p, h3 {
+    color: #474560;
+}
+
+.sub_type_inner p {
+    font-size: 18px;
+}
+
+.sub_type_title {
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.sub_type_title h3 {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.sub_type_info {
+    margin-bottom: 15px;
+}
+
+.buy_sub_btn {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    margin-bottom: 7%;
+}
+
+.buy_sub_btn a {
+    color: #fff;
+    background-color: #3D527F;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    padding: 5px 30px;
+}
+
+.disabled_btn a{
+    pointer-events: none;
+    color:#fff;
+    background-color:#3F3F46;
+}
+
+#line {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    margin: 0;
+    background: #727181;
+}
+
+.my_sub {
+    margin: 15px auto;
+}
+
+.my_sub p, a, h3, span {
+    color: #727181;
+    line-height: 48px;
+    padding: 0px 10px;
+}
+
+.my_sub p {
+    font-size: 24px;
+}
+
+.my_sub_title h3 {
+    font-weight: 400;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.sub_status a {
+    font-size: 18px;
+    color: #fff;
+}
+
+.sub_status p {
+    border: 2px solid #727181;
+}
+
+#extend_sub {
+    height: 52px;
+    line-height: 52px;
+    background-color: #727181;
+    padding: 0 10px;
+    border-radius: 0px 20px 20px 0;
+}
+
+#active_sub {
+    padding: auto 10px;
+    font-size: 18px;
+    border-top: 2px solid #727181;
+    border-right: 2px solid #727181;
+    border-bottom: 2px solid #727181;
+}
+
+.sub_status {
+    display: flex;
+    justify-content: start;
+}
+
+.my_books {
+    position: relative;
+    padding: 20px;
+    color: #727181;
+    display: none;
+}
+
+.my_books_title {
+    width: fit-content;
+    height: auto;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+.my_book_block {
+    position: relative;
+    width: 100%;
+    height: 344px;
+}
+
+.my_book_left_side {
+    /* position: absolute;
+    left: 0;
+    top: 0; */
+    width: 20%;
+    height: auto;
+    float: left;
+}
+
+.my_book_left_side__inner{
+    width: fit-content;
+    margin: auto;
+}
+
+.book_img {
+    margin-bottom: 25px;
+}
+
+/* .book_img img{
+    width: 85%;
+    height: auto;
+} */
+
+.read_btn {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+#read_btn {
+    color: #fff;
+    font-size: 24px;
+    line-height: 39px;
+    padding: 0 53px;
+    border-radius: 3px;
+    margin: auto;
+    background-color: #3D527F;
+}
+
+.my_book_right_side {
+    position: relative;
+    font-size: 18px;
+    width: 80%;
+    height: 100%;
+    margin-left: 20%;
+    padding: 0px 55px;
+    text-align: justify;
+}
+
+#default{
+    font-weight: 700;
+    line-height: 31px;
+}
+
+#book_name{
+    font-weight: 400;
+    line-height: 31px;
+}
+
+#description{
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing:normal;
+}
+
+.author{
+    position: absolute;
+    left: 55px;
+    bottom: 30px;
+}
+
+#author{
+    width: fit-content;
+    padding: 2px 40px;
+    text-align: center;
+    border: 4px solid #727181;
+}
+
+.active{
+    display: block;
+
+}

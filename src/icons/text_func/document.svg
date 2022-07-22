@@ -1,0 +1,12 @@
+<svg width="15" height="25" viewBox="0 0 15 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect y="25" width="25" height="2" rx="1" transform="rotate(-90 0 25)" fill="#2A3038"/>
+<rect x="13" y="25" width="25" height="2" rx="1" transform="rotate(-90 13 25)" fill="#2A3038"/>
+<rect x="15" y="25" width="15" height="2" rx="1" transform="rotate(-180 15 25)" fill="#2A3038"/>
+<rect x="15" y="2" width="15" height="2" rx="1" transform="rotate(-180 15 2)" fill="#2A3038"/>
+<line x1="3" y1="4.5" x2="12" y2="4.5" stroke="black"/>
+<line x1="3" y1="10.5" x2="12" y2="10.5" stroke="black"/>
+<line x1="3" y1="13.5" x2="12" y2="13.5" stroke="black"/>
+<line x1="3" y1="16.5" x2="12" y2="16.5" stroke="black"/>
+<line x1="3" y1="19.5" x2="11" y2="19.5" stroke="black"/>
+<line x1="3" y1="7.5" x2="12" y2="7.5" stroke="black"/>
+</svg>
