@@ -1,1 +1,3 @@
-https://akasha-book-shop.netlify.app/
+проект сделанный вместе с моим одногруппником. с меня фронт, с него бек и немного фронта
+
+хост https://akasha-book-shop.netlify.app/
